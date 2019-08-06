@@ -1,6 +1,6 @@
 {
-    "name": "@alonewarrior/observables-js",
-    "version": "1.0.4",
+    "name": "@alonewarrior/ts-library-template",
+    "version": "1.0.0",
     "types": "dist/index.d.ts",
     "main": "dist/index.js",
     "private": false,
@@ -21,18 +21,11 @@
         "chai": "^4.2.0",
         "mocha": "^6.2.0",
         "testdouble": "^3.12.2",
-        "ts-mocha": "^6.0.0"
-    },
-    "dependencies": {
-        "@types/request": "^2.48.1",
-        "cookie-parser": "~1.4.3",
-        "debug": "~2.6.9",
-        "express": "~4.16.0",
-        "kontainer-di": "^0.9.9",
-        "morgan": "~1.9.0",
+        "ts-mocha": "^6.0.0",
         "reflect-metadata": "^0.1.13",
-        "request": "^2.88.0",
         "ts-node": "^8.3.0",
         "typescript": "^3.5.3"
+    },
+    "dependencies": {
     }
 }
