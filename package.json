@@ -1,0 +1,38 @@
+{
+    "name": "@alonewarrior/observables-js",
+    "version": "1.0.4",
+    "types": "dist/index.d.ts",
+    "main": "dist/index.js",
+    "private": false,
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "dist/**/*.js",
+        "dist/**/*.d.ts",
+        "!dist/tests/**/*.d.ts",
+        "!dist/tests/**/*.js",
+        "!src/**/*.js"
+    ],
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^12.6.8",
+        "chai": "^4.2.0",
+        "mocha": "^6.2.0",
+        "testdouble": "^3.12.2",
+        "ts-mocha": "^6.0.0"
+    },
+    "dependencies": {
+        "@types/request": "^2.48.1",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.9",
+        "express": "~4.16.0",
+        "kontainer-di": "^0.9.9",
+        "morgan": "~1.9.0",
+        "reflect-metadata": "^0.1.13",
+        "request": "^2.88.0",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.3"
+    }
+}
