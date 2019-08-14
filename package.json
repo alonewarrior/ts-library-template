@@ -27,5 +27,6 @@
         "typescript": "^3.5.3"
     },
     "dependencies": {
+        "esm": "^3.2.25"
     }
 }
